@@ -13,7 +13,6 @@ class UserDataListView(ListView):
     model = UserData
     template_name = 'user_data_list.html'
     context_object_name = 'users'
-
 class UserDataCreateView(CreateView):
     model = UserData
     template_name = 'user_data_form.html'
