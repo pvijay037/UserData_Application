@@ -1,0 +1,31 @@
+# UserData_Application
+This is a basic web application built with Django that allows users to input their data, validates it, stores it in a database, retrieves it, and displays it in a table format.
+## create a virtual environment
+use cmd
+```bash
+python -m venv venv
+source .\venv\Scripts\activate.bat
+```
+## Install the required Python packages
+```bash
+pip install -r requirements.txt
+```
+## Apply database migrations to set up the database
+```bash
+python manage.py migrate
+```
+## Run the development server
+```bash
+python manage.py runserver
+```
+## superuser username&password
+```bash
+http://127.0.0.1:8000/admin/
+username:admin
+password:admin
+```
+
+
+
+
+
