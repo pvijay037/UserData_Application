@@ -10,10 +10,11 @@ source .\venv\Scripts\activate.bat
 ```bash
 pip install -r requirements.txt
 ```
-## Apply database migrations to set up the database
+## go to the file director path
 ```bash
-python manage.py migrate
+cd user_detail_app
 ```
+
 ## Run the development server
 ```bash
 python manage.py runserver
